@@ -1,0 +1,2 @@
+How to update or push folder once its already pushed in github
+how to ignore or remove already pushed folder/files
