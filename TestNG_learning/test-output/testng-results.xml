@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="13" passed="13">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Electronics Store" duration-ms="56" started-at="2020-06-12T00:48:21 IST" finished-at="2020-06-12T00:48:21 IST">
+    <groups>
+    </groups>
+    <test name="dumy" duration-ms="56" started-at="2020-06-12T00:48:21 IST" finished-at="2020-06-12T00:48:21 IST">
+      <class name="test.LG">
+        <test-method status="PASS" signature="MobileLG()[pri:0, instance:test.LG@731a74c]" name="MobileLG" duration-ms="1" started-at="2020-06-12T00:48:21 IST" finished-at="2020-06-12T00:48:21 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MobileLG -->
+        <test-method status="PASS" signature="TVLG()[pri:0, instance:test.LG@731a74c]" name="TVLG" duration-ms="1" started-at="2020-06-12T00:48:21 IST" finished-at="2020-06-12T00:48:21 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TVLG -->
+        <test-method status="PASS" signature="WashingMachineLG()[pri:0, instance:test.LG@731a74c]" name="WashingMachineLG" duration-ms="0" started-at="2020-06-12T00:48:21 IST" finished-at="2020-06-12T00:48:21 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WashingMachineLG -->
+      </class> <!-- test.LG -->
+      <class name="test.Apple">
+        <test-method status="PASS" signature="MobileApple()[pri:0, instance:test.Apple@4b4523f8]" name="MobileApple" duration-ms="6" started-at="2020-06-12T00:48:21 IST" finished-at="2020-06-12T00:48:21 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MobileApple -->
+        <test-method status="PASS" signature="TVApple()[pri:0, instance:test.Apple@4b4523f8]" name="TVApple" duration-ms="1" started-at="2020-06-12T00:48:21 IST" finished-at="2020-06-12T00:48:21 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TVApple -->
+        <test-method status="PASS" signature="WashingMachineApple()[pri:0, instance:test.Apple@4b4523f8]" name="WashingMachineApple" duration-ms="0" started-at="2020-06-12T00:48:21 IST" finished-at="2020-06-12T00:48:21 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WashingMachineApple -->
+      </class> <!-- test.Apple -->
+      <class name="test.one">
+        <test-method status="PASS" signature="FirstTest()[pri:0, instance:test.one@369f73a2]" name="FirstTest" duration-ms="1" started-at="2020-06-12T00:48:21 IST" finished-at="2020-06-12T00:48:21 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FirstTest -->
+        <test-method status="PASS" signature="SecondTest()[pri:0, instance:test.one@369f73a2]" name="SecondTest" duration-ms="0" started-at="2020-06-12T00:48:21 IST" finished-at="2020-06-12T00:48:21 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SecondTest -->
+      </class> <!-- test.one -->
+      <class name="test.Samsung">
+        <test-method status="PASS" signature="MobileSamsung()[pri:0, instance:test.Samsung@1f28c152]" name="MobileSamsung" duration-ms="1" started-at="2020-06-12T00:48:21 IST" finished-at="2020-06-12T00:48:21 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MobileSamsung -->
+        <test-method status="PASS" signature="MobileSamsungone()[pri:0, instance:test.Samsung@1f28c152]" name="MobileSamsungone" duration-ms="1" started-at="2020-06-12T00:48:21 IST" finished-at="2020-06-12T00:48:21 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MobileSamsungone -->
+        <test-method status="PASS" signature="MobileSamsungtwo()[pri:0, instance:test.Samsung@1f28c152]" name="MobileSamsungtwo" duration-ms="1" started-at="2020-06-12T00:48:21 IST" finished-at="2020-06-12T00:48:21 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MobileSamsungtwo -->
+        <test-method status="PASS" signature="TVSamsung()[pri:0, instance:test.Samsung@1f28c152]" name="TVSamsung" duration-ms="1" started-at="2020-06-12T00:48:21 IST" finished-at="2020-06-12T00:48:21 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TVSamsung -->
+        <test-method status="PASS" signature="WashingMachineSamsung()[pri:0, instance:test.Samsung@1f28c152]" name="WashingMachineSamsung" duration-ms="1" started-at="2020-06-12T00:48:21 IST" finished-at="2020-06-12T00:48:21 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WashingMachineSamsung -->
+      </class> <!-- test.Samsung -->
+    </test> <!-- dumy -->
+  </suite> <!-- Electronics Store -->
+</testng-results>
