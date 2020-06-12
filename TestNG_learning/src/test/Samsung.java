@@ -1,5 +1,7 @@
 package test;
 
+import org.testng.annotations.AfterTest;
+import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
 public class Samsung {
@@ -10,7 +12,7 @@ public class Samsung {
 		System.out.println("TV- Samsung");
 	}
 	
-	@Test
+	@Test(groups= {"smoke"})
 	public void MobileSamsung()
 	{
 		System.out.println("SmartPhone- Samsung");
@@ -31,6 +33,12 @@ public class Samsung {
 	public void WashingMachineSamsung()
 	{
 		System.out.println("Washing Machine- Samsung");
+	}
+	
+	@AfterTest()
+	public void afterBrands()
+	{
+		System.out.println("I RUN AFTER ALL BRAND TESTS");
 	}
 
 }
