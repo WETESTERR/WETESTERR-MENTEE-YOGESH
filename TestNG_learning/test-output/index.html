@@ -26,7 +26,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button class="button" id="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -40,7 +40,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" class="navigator-link" panel-name="suite-Electronics_Store">
-              <span class="suite-name border-passed">Electronics Store</span>
+              <span class="suite-name border-failed">Electronics Store</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -51,12 +51,12 @@
               <ul>
                 <li>
                   <a href="#" class="navigator-link " panel-name="test-xml-Electronics_Store">
-                    <span>D:\Work_P\gitRepo\WETESTERR-MENTEE-YOGESH\TestNG_learning\testng3_group.xml</span>
+                    <span>D:\Work_P\gitRepo\WETESTERR-MENTEE-YOGESH\TestNG_learning\testng.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
                   <a href="#" class="navigator-link " panel-name="testlist-Electronics_Store">
-                    <span class="test-stats">1 test</span>
+                    <span class="test-stats">3 tests</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -93,7 +93,21 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">4 methods,   4 passed</span>
+                    <span class="method-stats">17 methods, 1 failed,   16 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Electronics_Store" class="hide-methods failed suite-Electronics_Store"> (hide)</a> <!-- hide-methods failed suite-Electronics_Store -->
+                      <a href="#" panel-name="suite-Electronics_Store" class="show-methods failed suite-Electronics_Store"> (show)</a> <!-- show-methods failed suite-Electronics_Store -->
+                    </span>
+                    <div class="method-list-content failed suite-Electronics_Store">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Electronics_Store" title="test.Parameter" hash-for-method="tryme">tryme</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Electronics_Store -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -104,12 +118,57 @@
                     <div class="method-list-content passed suite-Electronics_Store">
                       <span>
                         <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Electronics_Store" title="test.Parameter" hash-for-method="Dp(newuser, newpass)">Dp(newuser, newpass)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Electronics_Store" title="test.Parameter" hash-for-method="Dp(primeuser, primepass)">Dp(primeuser, primepass)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Electronics_Store" title="test.Parameter" hash-for-method="Dp(generaluser, generalpass)">Dp(generaluser, generalpass)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Electronics_Store" title="test.one" hash-for-method="ElectricCooker">ElectricCooker</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Electronics_Store" title="test.one" hash-for-method="ElectricHeater">ElectricHeater</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Electronics_Store" title="test.Apple" hash-for-method="MobileApple">MobileApple</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Electronics_Store" title="test.LG" hash-for-method="MobileLG">MobileLG</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Electronics_Store" title="test.Samsung" hash-for-method="MobileSamsung">MobileSamsung</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Electronics_Store" title="test.Samsung" hash-for-method="MobileSamsungone">MobileSamsungone</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Electronics_Store" title="test.Samsung" hash-for-method="MobileSamsungtwo">MobileSamsungtwo</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Electronics_Store" title="test.Apple" hash-for-method="TVApple">TVApple</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -120,6 +179,21 @@
                       <span>
                         <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Electronics_Store" title="test.Apple" hash-for-method="WashingMachineApple">WashingMachineApple</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Electronics_Store" title="test.LG" hash-for-method="WashingMachineLG">WashingMachineLG</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Electronics_Store" title="test.Samsung" hash-for-method="WashingMachineSamsung(https://brands.com/)">WashingMachineSamsung(https://brands.com/)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Electronics_Store" title="test.one" hash-for-method="checkemo">checkemo</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Electronics_Store -->
@@ -134,6 +208,27 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Electronics_Store" class="panel Electronics_Store">
+          <div class="suite-Electronics_Store-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">test.Parameter</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="tryme">
+                  </a> <!-- tryme -->
+                  <span class="method-name">tryme</span>
+                  <div class="stack-trace">org.testng.TestNGException: 
+Parameter &apos;URxs&apos; is required by @Test on method tryme but has not been marked @Optional or defined
+in D:\Work_P\gitRepo\WETESTERR-MENTEE-YOGESH\TestNG_learning\testng.xml
+	at java.util.ArrayList.forEach(Unknown Source)
+... Removed 26 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Electronics_Store-class-failed -->
           <div class="suite-Electronics_Store-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -142,24 +237,23 @@
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
+                  <a name="MobileApple">
+                  </a> <!-- MobileApple -->
+                  <span class="method-name">MobileApple</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TVApple">
+                  </a> <!-- TVApple -->
+                  <span class="method-name">TVApple</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
                   <a name="WashingMachineApple">
                   </a> <!-- WashingMachineApple -->
                   <span class="method-name">WashingMachineApple</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Electronics_Store-class-passed -->
-          <div class="suite-Electronics_Store-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">test.LG</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="TVLG">
-                  </a> <!-- TVLG -->
-                  <span class="method-name">TVLG</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -177,6 +271,81 @@
                   <span class="method-name">ElectricCooker</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ElectricHeater">
+                  </a> <!-- ElectricHeater -->
+                  <span class="method-name">ElectricHeater</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkemo">
+                  </a> <!-- checkemo -->
+                  <span class="method-name">checkemo</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Electronics_Store-class-passed -->
+          <div class="suite-Electronics_Store-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">test.Parameter</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Dp(newuser, newpass)">
+                  </a> <!-- Dp(newuser, newpass) -->
+                  <span class="method-name">Dp</span>
+                  <span class="parameters">(newuser, newpass)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Dp(primeuser, primepass)">
+                  </a> <!-- Dp(primeuser, primepass) -->
+                  <span class="method-name">Dp</span>
+                  <span class="parameters">(primeuser, primepass)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Dp(generaluser, generalpass)">
+                  </a> <!-- Dp(generaluser, generalpass) -->
+                  <span class="method-name">Dp</span>
+                  <span class="parameters">(generaluser, generalpass)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Electronics_Store-class-passed -->
+          <div class="suite-Electronics_Store-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">test.LG</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="MobileLG">
+                  </a> <!-- MobileLG -->
+                  <span class="method-name">MobileLG</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TVLG">
+                  </a> <!-- TVLG -->
+                  <span class="method-name">TVLG</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="WashingMachineLG">
+                  </a> <!-- WashingMachineLG -->
+                  <span class="method-name">WashingMachineLG</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
           </div> <!-- suite-Electronics_Store-class-passed -->
           <div class="suite-Electronics_Store-class-passed">
@@ -192,31 +361,62 @@
                   <span class="method-name">MobileSamsung</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="MobileSamsungone">
+                  </a> <!-- MobileSamsungone -->
+                  <span class="method-name">MobileSamsungone</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="MobileSamsungtwo">
+                  </a> <!-- MobileSamsungtwo -->
+                  <span class="method-name">MobileSamsungtwo</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="WashingMachineSamsung(https://brands.com/)">
+                  </a> <!-- WashingMachineSamsung(https://brands.com/) -->
+                  <span class="method-name">WashingMachineSamsung</span>
+                  <span class="parameters">(https://brands.com/)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
           </div> <!-- suite-Electronics_Store-class-passed -->
         </div> <!-- panel Electronics_Store -->
         <div panel-name="test-xml-Electronics_Store" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">D:\Work_P\gitRepo\WETESTERR-MENTEE-YOGESH\TestNG_learning\testng3_group.xml</span>
+            <span class="header-content">D:\Work_P\gitRepo\WETESTERR-MENTEE-YOGESH\TestNG_learning\testng.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
 &lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Electronics Store&quot;&gt;
-  &lt;test thread-count=&quot;5&quot; name=&quot;Smoke test&quot;&gt;
-    &lt;groups&gt;
-      &lt;run&gt;
-        &lt;include name=&quot;smoke&quot;/&gt;
-      &lt;/run&gt;
-    &lt;/groups&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;test.Listeners&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Para&quot;&gt;
+    &lt;parameter name=&quot;URL&quot; value=&quot;https://wetesterr.com/&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;test.Parameter&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Para --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;equipments&quot;&gt;
     &lt;classes&gt;
       &lt;class name=&quot;test.one&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- equipments --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;brands&quot;&gt;
+    &lt;parameter name=&quot;URL&quot; value=&quot;https://brands.com/&quot;/&gt;
+    &lt;classes&gt;
       &lt;class name=&quot;test.Samsung&quot;/&gt;
       &lt;class name=&quot;test.Apple&quot;/&gt;
       &lt;class name=&quot;test.LG&quot;/&gt;
     &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- Smoke test --&gt;
+  &lt;/test&gt; &lt;!-- brands --&gt;
 &lt;/suite&gt; &lt;!-- Electronics Store --&gt;
             </pre>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -228,7 +428,13 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Smoke test (4 classes)</span>
+                <span class="test-name">Para (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">equipments (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">brands (3 classes)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -242,7 +448,7 @@
               <span class="test-group-name">smoke</span>
               <br/>
               <div class="method-in-group">
-                <span class="method-in-group-name">ElectricCooker</span>
+                <span class="method-in-group-name">MobileApple</span>
                 <br/>
               </div> <!-- method-in-group -->
               <div class="method-in-group">
@@ -274,28 +480,80 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(4);
+data.addRows(17);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'ElectricCooker')
-data.setCell(0, 2, 'test.one')
-data.setCell(0, 3, 6);
+data.setCell(0, 1, 'Dp')
+data.setCell(0, 2, 'test.Parameter')
+data.setCell(0, 3, 5);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'MobileSamsung')
-data.setCell(1, 2, 'test.Samsung')
-data.setCell(1, 3, 1);
+data.setCell(1, 1, 'Dp')
+data.setCell(1, 2, 'test.Parameter')
+data.setCell(1, 3, 2);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'WashingMachineApple')
+data.setCell(2, 1, 'MobileApple')
 data.setCell(2, 2, 'test.Apple')
-data.setCell(2, 3, 1);
+data.setCell(2, 3, 2);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'TVLG')
-data.setCell(3, 2, 'test.LG')
+data.setCell(3, 1, 'Dp')
+data.setCell(3, 2, 'test.Parameter')
 data.setCell(3, 3, 1);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'checkemo')
+data.setCell(4, 2, 'test.one')
+data.setCell(4, 3, 1);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'ElectricHeater')
+data.setCell(5, 2, 'test.one')
+data.setCell(5, 3, 1);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'MobileSamsungone')
+data.setCell(6, 2, 'test.Samsung')
+data.setCell(6, 3, 1);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'MobileLG')
+data.setCell(7, 2, 'test.LG')
+data.setCell(7, 3, 1);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'WashingMachineSamsung')
+data.setCell(8, 2, 'test.Samsung')
+data.setCell(8, 3, 1);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'MobileSamsung')
+data.setCell(9, 2, 'test.Samsung')
+data.setCell(9, 3, 1);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'TVApple')
+data.setCell(10, 2, 'test.Apple')
+data.setCell(10, 3, 1);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'MobileSamsungtwo')
+data.setCell(11, 2, 'test.Samsung')
+data.setCell(11, 3, 1);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'WashingMachineLG')
+data.setCell(12, 2, 'test.LG')
+data.setCell(12, 3, 1);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'tryme')
+data.setCell(13, 2, 'test.Parameter')
+data.setCell(13, 3, 0);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'ElectricCooker')
+data.setCell(14, 2, 'test.one')
+data.setCell(14, 3, 0);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'WashingMachineApple')
+data.setCell(15, 2, 'test.Apple')
+data.setCell(15, 3, 0);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'TVLG')
+data.setCell(16, 2, 'test.LG')
+data.setCell(16, 3, 0);
 window.suiteTableData['Electronics_Store']= { tableData: data, tableDiv: 'times-div-Electronics_Store'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 9 ms</span>
+              <span class="suite-total-time">Total running time: 19 ms</span>
               <div id="times-div-Electronics_Store">
               </div> <!-- times-div-Electronics_Store -->
             </div> <!-- times-div -->
@@ -310,44 +568,13 @@ return data;
         </div> <!-- panel -->
         <div panel-name="ignored-methods-Electronics_Store" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">9 ignored methods</span>
+            <span class="header-content">1 ignored method</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="ignored-class-div">
-              <span class="ignored-class-name">test.Apple</span>
-              <div class="ignored-methods-div">
-                <span class="ignored-method-name">TVApple</span>
-                <br/>
-                <span class="ignored-method-name">MobileApple</span>
-                <br/>
-              </div> <!-- ignored-methods-div -->
-            </div> <!-- ignored-class-div -->
-            <div class="ignored-class-div">
-              <span class="ignored-class-name">test.LG</span>
-              <div class="ignored-methods-div">
-                <span class="ignored-method-name">WashingMachineLG</span>
-                <br/>
-                <span class="ignored-method-name">MobileLG</span>
-                <br/>
-              </div> <!-- ignored-methods-div -->
-            </div> <!-- ignored-class-div -->
-            <div class="ignored-class-div">
-              <span class="ignored-class-name">test.one</span>
-              <div class="ignored-methods-div">
-                <span class="ignored-method-name">ElectricHeater</span>
-                <br/>
-              </div> <!-- ignored-methods-div -->
-            </div> <!-- ignored-class-div -->
-            <div class="ignored-class-div">
               <span class="ignored-class-name">test.Samsung</span>
               <div class="ignored-methods-div">
-                <span class="ignored-method-name">MobileSamsungone</span>
-                <br/>
-                <span class="ignored-method-name">WashingMachineSamsung</span>
-                <br/>
                 <span class="ignored-method-name">TVSamsung</span>
-                <br/>
-                <span class="ignored-method-name">MobileSamsungtwo</span>
                 <br/>
               </div> <!-- ignored-methods-div -->
             </div> <!-- ignored-class-div -->
@@ -359,32 +586,151 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
+              <div class="chronological-class-name">test.LG</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">beforeSuite</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.Parameter</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">Dp(primeuser, primepass)</span>
+                <span class="method-start">40 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Dp(generaluser, generalpass)</span>
+                <span class="method-start">49 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Dp(newuser, newpass)</span>
+                <span class="method-start">51 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
               <div class="chronological-class-name">test.one</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">beforeTestEquipment</span>
+                <span class="method-start">90 ms</span>
+              </div> <!-- configuration-test before -->
               <div class="test-method">
                 <span class="method-name">ElectricCooker</span>
-                <span class="method-start">0 ms</span>
+                <span class="method-start">91 ms</span>
               </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">ElectricHeater</span>
+                <span class="method-start">92 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkemo</span>
+                <span class="method-start">94 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">AfterTestEquipment</span>
+                <span class="method-start">95 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.LG</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">BeforeBarnd</span>
+                <span class="method-start">100 ms</span>
+              </div> <!-- configuration-test before -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">test.Samsung</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">MobileSamsung</span>
-                <span class="method-start">10 ms</span>
+                <span class="method-start">102 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">MobileSamsungtwo</span>
+                <span class="method-start">105 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">WashingMachineSamsung(https://brands.com/)</span>
+                <span class="method-start">107 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">MobileSamsungone</span>
+                <span class="method-start">110 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">test.Apple</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">bmethod</span>
+                <span class="method-start">113 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">MobileApple</span>
+                <span class="method-start">115 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">amethod</span>
+                <span class="method-start">118 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">bmethod</span>
+                <span class="method-start">119 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TVApple</span>
+                <span class="method-start">119 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">amethod</span>
+                <span class="method-start">122 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">bmethod</span>
+                <span class="method-start">122 ms</span>
+              </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">WashingMachineApple</span>
-                <span class="method-start">12 ms</span>
+                <span class="method-start">123 ms</span>
               </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">amethod</span>
+                <span class="method-start">124 ms</span>
+              </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">test.LG</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">bclass</span>
+                <span class="method-start">125 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">MobileLG</span>
+                <span class="method-start">125 ms</span>
+              </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">TVLG</span>
-                <span class="method-start">14 ms</span>
+                <span class="method-start">127 ms</span>
               </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">WashingMachineLG</span>
+                <span class="method-start">128 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">Aclass</span>
+                <span class="method-start">129 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.Samsung</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">afterBrands</span>
+                <span class="method-start">129 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.LG</div> <!-- chronological-class-name -->
+              <div class="configuration-suite after">
+                <span class="method-name">afterSuite</span>
+                <span class="method-start">135 ms</span>
+              </div> <!-- configuration-suite after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->

@@ -1,6 +1,7 @@
 package test;
 
 import org.testng.annotations.AfterClass;
+import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.BeforeTest;
@@ -24,11 +25,12 @@ public void Aclass()
 	{
 		System.out.println("TV- LG");
 	}
-	
+
 	@Test
 	public void MobileLG()
 	{
 		System.out.println("SmartPhone- LG");
+	
 	}
 	
 	@Test
@@ -42,6 +44,13 @@ public void Aclass()
 	{
 		System.out.println("I RUN BEFORE ALL BRAND TEST");
 	}
+	
+	@AfterSuite
+	public void afterSuite()
+	{
+		System.out.println("I RUN LAST IN THE SUITE");
+	}
+	
 	@BeforeSuite
 	public void beforeSuite()
 	{

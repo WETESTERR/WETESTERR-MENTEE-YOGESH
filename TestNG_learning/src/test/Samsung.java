@@ -1,12 +1,12 @@
 package test;
 
 import org.testng.annotations.AfterTest;
-import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
 public class Samsung {
 	
-	@Test
+	@Test(enabled=false)
 	public void TVSamsung()
 	{
 		System.out.println("TV- Samsung");
@@ -18,7 +18,7 @@ public class Samsung {
 		System.out.println("SmartPhone- Samsung");
 	}
 	
-	@Test
+	@Test(dependsOnMethods={"MobileSamsungtwo"})
 	public void MobileSamsungone()
 	{
 		System.out.println("SmartPhone- Samsung1");
@@ -29,10 +29,12 @@ public class Samsung {
 		System.out.println("SmartPhone- Samsung2");
 	}
 	
+	@Parameters({"URL"})
 	@Test
-	public void WashingMachineSamsung()
+	public void WashingMachineSamsung(String urlname)
 	{
 		System.out.println("Washing Machine- Samsung");
+		System.out.println(urlname);
 	}
 	
 	@AfterTest()
@@ -40,5 +42,6 @@ public class Samsung {
 	{
 		System.out.println("I RUN AFTER ALL BRAND TESTS");
 	}
+
 
 }

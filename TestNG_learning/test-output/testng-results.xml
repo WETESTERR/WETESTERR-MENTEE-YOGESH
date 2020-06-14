@@ -1,41 +1,238 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="9" total="13" passed="4">
+<testng-results skipped="0" failed="1" ignored="1" total="18" passed="16">
   <reporter-output>
   </reporter-output>
-  <suite name="Electronics Store" duration-ms="40" started-at="2020-06-13T00:03:29 IST" finished-at="2020-06-13T00:03:29 IST">
+  <suite name="Electronics Store" duration-ms="120" started-at="2020-06-14T22:33:51 IST" finished-at="2020-06-14T22:33:51 IST">
     <groups>
       <group name="smoke">
-        <method signature="Apple.WashingMachineApple()[pri:0, instance:test.Apple@3a5ed7a6]" name="WashingMachineApple" class="test.Apple"/>
-        <method signature="LG.TVLG()[pri:0, instance:test.LG@6325a3ee]" name="TVLG" class="test.LG"/>
-        <method signature="Samsung.MobileSamsung()[pri:0, instance:test.Samsung@7791a895]" name="MobileSamsung" class="test.Samsung"/>
-        <method signature="one.ElectricCooker()[pri:0, instance:test.one@7d907bac]" name="ElectricCooker" class="test.one"/>
+        <method signature="Apple.MobileApple()[pri:0, instance:test.Apple@76707e36]" name="MobileApple" class="test.Apple"/>
+        <method signature="Apple.WashingMachineApple()[pri:0, instance:test.Apple@76707e36]" name="WashingMachineApple" class="test.Apple"/>
+        <method signature="LG.TVLG()[pri:0, instance:test.LG@4f063c0a]" name="TVLG" class="test.LG"/>
+        <method signature="Samsung.MobileSamsung()[pri:0, instance:test.Samsung@1e6d1014]" name="MobileSamsung" class="test.Samsung"/>
       </group> <!-- smoke -->
     </groups>
-    <test name="Smoke test" duration-ms="40" started-at="2020-06-13T00:03:29 IST" finished-at="2020-06-13T00:03:29 IST">
-      <class name="test.LG">
-        <test-method status="PASS" signature="TVLG()[pri:0, instance:test.LG@6325a3ee]" name="TVLG" duration-ms="1" started-at="2020-06-13T00:03:29 IST" finished-at="2020-06-13T00:03:29 IST">
+    <test name="Para" duration-ms="51" started-at="2020-06-14T22:33:51 IST" finished-at="2020-06-14T22:33:51 IST">
+      <class name="test.Parameter">
+        <test-method status="PASS" signature="Dp(java.lang.String, java.lang.String)[pri:0, instance:test.Parameter@2b2948e2]" name="Dp" duration-ms="5" started-at="2020-06-14T22:33:51 IST" data-provider="dProvider" finished-at="2020-06-14T22:33:51 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[primeuser]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[primepass]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- TVLG -->
-      </class> <!-- test.LG -->
-      <class name="test.Apple">
-        <test-method status="PASS" signature="WashingMachineApple()[pri:0, instance:test.Apple@3a5ed7a6]" name="WashingMachineApple" duration-ms="1" started-at="2020-06-13T00:03:29 IST" finished-at="2020-06-13T00:03:29 IST">
+        </test-method> <!-- Dp -->
+        <test-method status="PASS" signature="Dp(java.lang.String, java.lang.String)[pri:0, instance:test.Parameter@2b2948e2]" name="Dp" duration-ms="1" started-at="2020-06-14T22:33:51 IST" data-provider="dProvider" finished-at="2020-06-14T22:33:51 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[generaluser]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[generalpass]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- WashingMachineApple -->
-      </class> <!-- test.Apple -->
+        </test-method> <!-- Dp -->
+        <test-method status="PASS" signature="Dp(java.lang.String, java.lang.String)[pri:0, instance:test.Parameter@2b2948e2]" name="Dp" duration-ms="2" started-at="2020-06-14T22:33:51 IST" data-provider="dProvider" finished-at="2020-06-14T22:33:51 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[newuser]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[newpass]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Dp -->
+        <test-method status="FAIL" signature="tryme(java.lang.String)[pri:0, instance:test.Parameter@2b2948e2]" name="tryme" duration-ms="0" started-at="2020-06-14T22:33:51 IST" finished-at="2020-06-14T22:33:51 IST">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'URxs' is required by @Test on method tryme but has not been marked @Optional or defined
+in D:\Work_P\gitRepo\WETESTERR-MENTEE-YOGESH\TestNG_learning\testng.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'URxs' is required by @Test on method tryme but has not been marked @Optional or defined
+in D:\Work_P\gitRepo\WETESTERR-MENTEE-YOGESH\TestNG_learning\testng.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:268)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:356)
+at org.testng.internal.Parameters.createParameters(Parameters.java:700)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:875)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:740)
+at org.testng.internal.ParameterHandler.handleParameters(ParameterHandler.java:59)
+at org.testng.internal.ParameterHandler.createParameters(ParameterHandler.java:38)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:788)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:767)
+at org.testng.TestRunner.run(TestRunner.java:588)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1214)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1136)
+at org.testng.TestNG.runSuites(TestNG.java:1066)
+at org.testng.TestNG.run(TestNG.java:1034)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tryme -->
+      </class> <!-- test.Parameter -->
+    </test> <!-- Para -->
+    <test name="equipments" duration-ms="6" started-at="2020-06-14T22:33:51 IST" finished-at="2020-06-14T22:33:51 IST">
       <class name="test.one">
-        <test-method status="PASS" signature="ElectricCooker()[pri:0, instance:test.one@7d907bac]" name="ElectricCooker" duration-ms="6" started-at="2020-06-13T00:03:29 IST" finished-at="2020-06-13T00:03:29 IST">
+        <test-method status="PASS" signature="beforeTestEquipment()[pri:0, instance:test.one@3b084709]" name="beforeTestEquipment" is-config="true" duration-ms="0" started-at="2020-06-14T22:33:51 IST" finished-at="2020-06-14T22:33:51 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTestEquipment -->
+        <test-method status="PASS" signature="ElectricCooker()[pri:0, instance:test.one@3b084709]" name="ElectricCooker" duration-ms="0" started-at="2020-06-14T22:33:51 IST" finished-at="2020-06-14T22:33:51 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ElectricCooker -->
+        <test-method status="PASS" signature="ElectricHeater()[pri:0, instance:test.one@3b084709]" name="ElectricHeater" duration-ms="1" started-at="2020-06-14T22:33:51 IST" finished-at="2020-06-14T22:33:51 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ElectricHeater -->
+        <test-method status="PASS" signature="checkemo()[pri:0, instance:test.one@3b084709]" name="checkemo" duration-ms="1" started-at="2020-06-14T22:33:51 IST" finished-at="2020-06-14T22:33:51 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkemo -->
+        <test-method status="PASS" signature="AfterTestEquipment()[pri:0, instance:test.one@3b084709]" name="AfterTestEquipment" is-config="true" duration-ms="1" started-at="2020-06-14T22:33:51 IST" finished-at="2020-06-14T22:33:51 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterTestEquipment -->
       </class> <!-- test.one -->
+    </test> <!-- equipments -->
+    <test name="brands" duration-ms="30" started-at="2020-06-14T22:33:51 IST" finished-at="2020-06-14T22:33:51 IST">
+      <class name="test.LG">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:test.LG@4f063c0a]" name="beforeSuite" is-config="true" duration-ms="9" started-at="2020-06-14T22:33:51 IST" finished-at="2020-06-14T22:33:51 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="BeforeBarnd()[pri:0, instance:test.LG@4f063c0a]" name="BeforeBarnd" is-config="true" duration-ms="0" started-at="2020-06-14T22:33:51 IST" finished-at="2020-06-14T22:33:51 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeBarnd -->
+        <test-method status="PASS" signature="bclass()[pri:0, instance:test.LG@4f063c0a]" name="bclass" is-config="true" duration-ms="0" started-at="2020-06-14T22:33:51 IST" finished-at="2020-06-14T22:33:51 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bclass -->
+        <test-method status="PASS" signature="MobileLG()[pri:0, instance:test.LG@4f063c0a]" name="MobileLG" duration-ms="1" started-at="2020-06-14T22:33:51 IST" finished-at="2020-06-14T22:33:51 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MobileLG -->
+        <test-method status="PASS" signature="TVLG()[pri:0, instance:test.LG@4f063c0a]" name="TVLG" duration-ms="0" started-at="2020-06-14T22:33:51 IST" finished-at="2020-06-14T22:33:51 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TVLG -->
+        <test-method status="PASS" signature="WashingMachineLG()[pri:0, instance:test.LG@4f063c0a]" name="WashingMachineLG" duration-ms="1" started-at="2020-06-14T22:33:51 IST" finished-at="2020-06-14T22:33:51 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WashingMachineLG -->
+        <test-method status="PASS" signature="Aclass()[pri:0, instance:test.LG@4f063c0a]" name="Aclass" is-config="true" duration-ms="0" started-at="2020-06-14T22:33:51 IST" finished-at="2020-06-14T22:33:51 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Aclass -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:test.LG@4f063c0a]" name="afterSuite" is-config="true" duration-ms="0" started-at="2020-06-14T22:33:51 IST" finished-at="2020-06-14T22:33:51 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- test.LG -->
+      <class name="test.Apple">
+        <test-method status="PASS" signature="bmethod()[pri:0, instance:test.Apple@76707e36]" name="bmethod" is-config="true" duration-ms="1" started-at="2020-06-14T22:33:51 IST" finished-at="2020-06-14T22:33:51 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bmethod -->
+        <test-method status="PASS" signature="MobileApple()[pri:0, instance:test.Apple@76707e36]" name="MobileApple" duration-ms="2" started-at="2020-06-14T22:33:51 IST" finished-at="2020-06-14T22:33:51 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MobileApple -->
+        <test-method status="PASS" signature="amethod()[pri:0, instance:test.Apple@76707e36]" name="amethod" is-config="true" duration-ms="0" started-at="2020-06-14T22:33:51 IST" finished-at="2020-06-14T22:33:51 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- amethod -->
+        <test-method status="PASS" signature="bmethod()[pri:0, instance:test.Apple@76707e36]" name="bmethod" is-config="true" duration-ms="0" started-at="2020-06-14T22:33:51 IST" finished-at="2020-06-14T22:33:51 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bmethod -->
+        <test-method status="PASS" signature="TVApple()[pri:0, instance:test.Apple@76707e36]" name="TVApple" duration-ms="1" started-at="2020-06-14T22:33:51 IST" finished-at="2020-06-14T22:33:51 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TVApple -->
+        <test-method status="PASS" signature="bmethod()[pri:0, instance:test.Apple@76707e36]" name="bmethod" is-config="true" duration-ms="1" started-at="2020-06-14T22:33:51 IST" finished-at="2020-06-14T22:33:51 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bmethod -->
+        <test-method status="PASS" signature="amethod()[pri:0, instance:test.Apple@76707e36]" name="amethod" is-config="true" duration-ms="0" started-at="2020-06-14T22:33:51 IST" finished-at="2020-06-14T22:33:51 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- amethod -->
+        <test-method status="PASS" signature="WashingMachineApple()[pri:0, instance:test.Apple@76707e36]" name="WashingMachineApple" duration-ms="0" started-at="2020-06-14T22:33:51 IST" finished-at="2020-06-14T22:33:51 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WashingMachineApple -->
+        <test-method status="PASS" signature="amethod()[pri:0, instance:test.Apple@76707e36]" name="amethod" is-config="true" duration-ms="0" started-at="2020-06-14T22:33:51 IST" finished-at="2020-06-14T22:33:51 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- amethod -->
+      </class> <!-- test.Apple -->
       <class name="test.Samsung">
-        <test-method status="PASS" signature="MobileSamsung()[pri:0, instance:test.Samsung@7791a895]" name="MobileSamsung" duration-ms="1" started-at="2020-06-13T00:03:29 IST" finished-at="2020-06-13T00:03:29 IST">
+        <test-method status="PASS" signature="MobileSamsung()[pri:0, instance:test.Samsung@1e6d1014]" name="MobileSamsung" duration-ms="1" started-at="2020-06-14T22:33:51 IST" finished-at="2020-06-14T22:33:51 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- MobileSamsung -->
+        <test-method status="PASS" signature="MobileSamsungtwo()[pri:0, instance:test.Samsung@1e6d1014]" name="MobileSamsungtwo" duration-ms="1" started-at="2020-06-14T22:33:51 IST" finished-at="2020-06-14T22:33:51 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MobileSamsungtwo -->
+        <test-method status="PASS" signature="WashingMachineSamsung(java.lang.String)[pri:0, instance:test.Samsung@1e6d1014]" name="WashingMachineSamsung" duration-ms="1" started-at="2020-06-14T22:33:51 IST" finished-at="2020-06-14T22:33:51 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://brands.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WashingMachineSamsung -->
+        <test-method status="PASS" signature="MobileSamsungone()[pri:0, instance:test.Samsung@1e6d1014]" name="MobileSamsungone" duration-ms="1" started-at="2020-06-14T22:33:51 IST" depends-on-methods="test.Samsung.MobileSamsungtwo" finished-at="2020-06-14T22:33:51 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MobileSamsungone -->
+        <test-method status="PASS" signature="afterBrands()[pri:0, instance:test.Samsung@1e6d1014]" name="afterBrands" is-config="true" duration-ms="1" started-at="2020-06-14T22:33:51 IST" finished-at="2020-06-14T22:33:51 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterBrands -->
       </class> <!-- test.Samsung -->
-    </test> <!-- Smoke test -->
+    </test> <!-- brands -->
   </suite> <!-- Electronics Store -->
 </testng-results>

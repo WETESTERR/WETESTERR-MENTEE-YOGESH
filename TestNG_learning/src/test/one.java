@@ -1,17 +1,22 @@
 package test;
 
-import org.testng.annotations.AfterSuite;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
 public class one {
 	
-	@AfterSuite
-	public void afterSuite()
-	{
-		System.out.println("I RUN LAST IN THE SUITE");
-	}
+	
+	
+	@Test
+public void checkemo() 
+{
+	System.out.println("My Name Is");	
+
+	
+}
+	
 	
 	@Test
 	public void ElectricHeater() 
@@ -19,7 +24,7 @@ public class one {
 		System.out.println("Electric Heather- Local brand");
 	}
 	
-	@Test(groups= {"smoke"})
+	@Test
 	public void ElectricCooker() 
 	{
 		System.out.println("Electric Cooker- Prastige Cooker");

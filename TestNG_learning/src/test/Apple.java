@@ -22,7 +22,7 @@ public class Apple {
 		System.out.println("TV- Apple");
 	}
 	
-	@Test
+	@Test(groups= {"smoke"})
 	public void MobileApple()
 	{
 		System.out.println("SmartPhone- Apple");

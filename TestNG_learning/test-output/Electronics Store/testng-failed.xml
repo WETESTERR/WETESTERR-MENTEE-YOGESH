@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Electronics Store]">
+  <listeners>
+    <listener class-name="test.Listeners"/>
+  </listeners>
+  <test thread-count="5" name="Para(failed)">
+    <parameter name="URL" value="https://wetesterr.com/"/>
+    <classes>
+      <class name="test.Parameter">
+        <methods>
+          <include name="tryme"/>
+        </methods>
+      </class> <!-- test.Parameter -->
+    </classes>
+  </test> <!-- Para(failed) -->
+</suite> <!-- Failed suite [Electronics Store] -->
