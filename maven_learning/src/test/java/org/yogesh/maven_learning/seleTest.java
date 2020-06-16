@@ -6,7 +6,7 @@ public class seleTest {
 	@Test
 	public void BrowserAutomation()
 	{
-		System.out.println("Sele project");
+		System.out.println("This is Regression test");
 	}
 
 }

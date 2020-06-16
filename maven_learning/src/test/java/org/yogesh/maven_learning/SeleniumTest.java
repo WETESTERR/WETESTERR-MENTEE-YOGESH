@@ -7,7 +7,7 @@ public class SeleniumTest {
 	@Test
 	public void BrowserAutomation()
 	{
-		System.out.println("Selenium project");
+		System.out.println("This is Smoke test");
 	}
 
 }
