@@ -1,0 +1,25 @@
+package test;
+
+import org.testng.annotations.Test;
+
+public class Samsung {
+	
+	@Test
+	public void SamsungTV()
+	{
+		System.out.println("Android TV- Samsung");
+	}
+	
+	@Test
+	public void SamsungMobile()
+	{
+		System.out.println("Android SmartPhone- Samsung");
+	}
+	
+	@Test
+	public void SamsungWashingMachine()
+	{
+		System.out.println("Washing Machine- Samsung");
+	}
+
+}

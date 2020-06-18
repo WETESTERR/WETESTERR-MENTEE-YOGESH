@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Electronics Store">
+  <parameter name="URl" value="https://wetesterr.com/"/>
+  
+    <test thread-count="5" name="Para">
+    <classes>
+      <class name="test.Parameter"/>
+      </classes>
+  </test>
+  <test thread-count="5" name="equipments">
+    <classes>
+      <class name="test.one"/>
+      </classes>
+  </test> 
+  <test name="brands">
+   		<classes>
+  			<class name="test.Samsung">
+   			</class>
+  			<class name="test.Apple"/>
+  			
+    		<class name="test.LG"/>	
+  		</classes>
+  </test>
+</suite>

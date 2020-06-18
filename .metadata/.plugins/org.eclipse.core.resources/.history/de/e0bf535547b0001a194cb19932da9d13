@@ -1,0 +1,13 @@
+package pages;
+
+public class HomePage {
+	
+	//identify the element
+	String myMoneyMap = "xyz";
+
+	public void getHomePage()
+	{
+		
+		System.out.println("This is My Home Page");
+	}
+}

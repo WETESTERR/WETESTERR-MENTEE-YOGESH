@@ -1,0 +1,14 @@
+package test;
+
+import org.testng.annotations.Parameters;
+import org.testng.annotations.Test;
+
+public class Try {
+	@Parameters({"URL"})
+	@Test
+	public void tryme(String urlname)
+	{
+		System.out.println(urlname);
+	}
+
+}
