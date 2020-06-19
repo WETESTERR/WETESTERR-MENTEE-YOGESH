@@ -1320,3 +1320,4 @@ org.eclipse.core.runtime.CoreException: Launch configuration testCase2 reference
 2020-06-17 08:35:01,067 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Work_P\gitRepo\WETESTERR-MENTEE-YOGESH\ZeroBank\src\main\resources
 2020-06-17 08:35:01,070 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2020-06-17 08:35:01,070 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Work_P\gitRepo\WETESTERR-MENTEE-YOGESH\ZeroBank\src\test\resources
+2020-06-19 23:27:51,274 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
