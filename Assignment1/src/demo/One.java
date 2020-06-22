@@ -3,23 +3,23 @@ package demo;
 public class One {
 
 	
-	public void methodA ()
+	public One methodA ()
 	{
 		System.out.println("I am method A of class one");
+		return this;
 	}
 	
-	public void methodB ()
+	public One methodB ()
 	{
 		System.out.println("I am method B of class one");
+		return new One();
 	}
 	
-	public void methodC ()
+	public Two methodC ()
 	{
 		System.out.println("I am method C of class one");
-	}
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
+		Two two = new Two();
+		return two;
 	}
 
 }

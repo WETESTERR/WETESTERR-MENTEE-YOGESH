@@ -2,37 +2,24 @@ package demo;
 
 public class Demo1 {
 
-	public void one()
+	public One one()
 	{
 		One one = new One();
-		one.methodA();
-		one.methodB();
-		one.methodB();
-		one.methodC();
+		return one;
 	}
 	
-	public void two()
+	public Two two()
 	{
 		Two two = new Two();
-		two.methodD();
-		two.methodE();
-		two.methodF();
+		return two;
 	}
 	
-	public void three()
+	public Three three()
 	{
 	Three three = new Three();
-	three.methodG();
-	three.methodH();
-	three.methodI();
+	return three;
 	}
 	
-	public static void main(String[] args) {
-		
 
-
-
-
-	}
 
 }

@@ -17,9 +17,5 @@ public class Three {
 	{
 		System.out.println("I am method I of class three");
 	}
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
-	}
 
 }
