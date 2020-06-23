@@ -3,14 +3,17 @@ package demo;
 public class Three {
 
 	
-	public void methodG ()
+	public Three methodG ()
 	{
 		System.out.println("I am method G of class three");
+		return this;
+		
 	}
 	
-	public void methodH ()
+	public Three methodH ()
 	{
 		System.out.println("I am method H of class three");
+		return this;
 	}
 	
 	public void methodI ()
