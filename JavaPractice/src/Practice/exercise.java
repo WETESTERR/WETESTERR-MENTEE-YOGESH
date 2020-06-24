@@ -19,6 +19,14 @@ public class exercise {
 		System.out.println(one+"*"+two+"*"+three+" = "+(one*two*three));
 		System.out.println("The average is "+(double)((one+two+three)/3));
 		
+		int four = Integer.valueOf(scanner.nextLine());
+		if(four<0)
+		{
+			System.out.println(four*-1);
+		}else
+		{
+			System.out.println(four);
+		}
 	}
 
 }
