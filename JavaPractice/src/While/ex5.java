@@ -16,13 +16,13 @@ The number zero does not need to be added to the sum, even if it does not change
 	while(true) {
 		System.out.println("Give a Number: ");
 		int number = Integer.valueOf(scanner.nextLine());
-		if(number==0)
-		{
-			break;
-		}
-		if(number!=0)
+	
+		if(number!=2)
 		{
 			sum=sum+number;
+		}else
+		{
+			break;
 		}
 	}
 	System.out.println(sum);
