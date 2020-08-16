@@ -1,0 +1,87 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-08-16T13:20:03.768Z",
+        "before": [
+          {
+            "result": {
+              "duration": 6770916400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "org.example.config.WebDriverManager.beforeScenario(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "This is scenario for f1",
+        "description": "",
+        "id": "this-is-f1;this-is-scenario-for-f1",
+        "after": [
+          {
+            "result": {
+              "duration": 559600400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "org.example.config.WebDriverManager.afterScenario(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1998800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "This is a given step",
+            "match": {
+              "location": "org.example.steps.F1Steps.thisIsAGivenStep()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 999600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "something happens",
+            "match": {
+              "location": "org.example.steps.F1Steps.somethingHappens()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 999200,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "assert for verification",
+            "match": {
+              "location": "org.example.steps.F1Steps.assertForVerification()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression"
+          }
+        ]
+      }
+    ],
+    "name": "This is f1",
+    "description": "",
+    "id": "this-is-f1",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/feature/f1.feature",
+    "tags": []
+  }
+]

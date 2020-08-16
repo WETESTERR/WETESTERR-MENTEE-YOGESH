@@ -1,0 +1,52 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-08-11T16:46:29.812Z",
+        "line": 4,
+        "name": "this is scenario 1",
+        "description": "",
+        "id": "this-is-feature-1;this-is-scenario-1",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1002273400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "this is a scenario",
+            "match": {
+              "location": "org.example.steps.Test1Steps.thisIsAScenario()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "this is a test for this scenario",
+            "match": {
+              "location": "org.example.steps.Test1Steps.thisIsATestForThisScenario()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression"
+          }
+        ]
+      }
+    ],
+    "name": "this is feature 1",
+    "description": "",
+    "id": "this-is-feature-1",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/feature/Test1.feature",
+    "tags": []
+  }
+]

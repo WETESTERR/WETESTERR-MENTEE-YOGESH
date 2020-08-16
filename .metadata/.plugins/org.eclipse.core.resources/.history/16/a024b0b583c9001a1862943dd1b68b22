@@ -1,0 +1,23 @@
+package Opps;
+
+import java.util.Scanner;
+
+public class number {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner scanner = new Scanner(System.in);
+
+		while (true) {
+		    String row = scanner.nextLine();
+
+		    if (row.equals("end")) {
+		        break;
+		    }
+
+		    int number = Integer.valueOf(row);
+		    System.out.println(row);
+		}
+	}
+
+}

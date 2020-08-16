@@ -1,0 +1,17 @@
+package Practice;
+
+public class Test {
+	
+	int i;
+	
+	void setValue(int i)
+	{
+		this.i=i;
+	}
+	
+	int show()
+	{
+		return i;
+	}
+
+}

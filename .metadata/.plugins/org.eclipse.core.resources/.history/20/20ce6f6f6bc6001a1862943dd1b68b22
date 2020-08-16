@@ -1,0 +1,17 @@
+package Opps;
+
+public class bankAccount {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+Account yogesh = new Account();
+Account my = new Account();
+yogesh.Account(1000.0);
+my.Account(0.0);
+yogesh.withdraw(100.0);
+my.deposite(100.0);
+System.out.println(yogesh.getBalance());
+System.out.println(my.getBalance());;
+	}
+
+}
